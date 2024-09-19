@@ -1,6 +1,6 @@
 # learn.lianglianglee.com
 
-# how to run 
+# how to run
 
 ```
 python3 -m http.server     

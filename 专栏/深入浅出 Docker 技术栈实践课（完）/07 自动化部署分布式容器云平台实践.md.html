@@ -27,9 +27,7 @@
     </head>
 
 
-
 <body>
-
 
 
 <div class="book-container">
@@ -57,7 +55,6 @@
             </ul>
 
 
-
             <ul class="uncollapsible">
 
                 <li><a href="../">上一级</a></li>
@@ -65,17 +62,13 @@
             </ul>
 
 
-
             <ul class="uncollapsible">
 
                 <li>
 
 
-
-                    
-
-                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/01 导读：Docker 核心技术预览.md.html">01 导读：Docker 核心技术预览.md.html</a>
-
+                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/01 导读：Docker 核心技术预览.md.html">01 导读：Docker
+                        核心技术预览.md.html</a>
 
 
                 </li>
@@ -83,11 +76,8 @@
                 <li>
 
 
-
-                    
-
-                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/02 Docker 命令行实践.md.html">02 Docker 命令行实践.md.html</a>
-
+                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/02 Docker 命令行实践.md.html">02 Docker
+                        命令行实践.md.html</a>
 
 
                 </li>
@@ -95,11 +85,8 @@
                 <li>
 
 
-
-                    
-
-                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/03 基于 Docker 的 DevOps 实践.md.html">03 基于 Docker 的 DevOps 实践.md.html</a>
-
+                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/03 基于 Docker 的 DevOps 实践.md.html">03 基于
+                        Docker 的 DevOps 实践.md.html</a>
 
 
                 </li>
@@ -107,11 +94,8 @@
                 <li>
 
 
-
-                    
-
-                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/04 容器云平台的构建实践.md.html">04 容器云平台的构建实践.md.html</a>
-
+                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/04 容器云平台的构建实践.md.html">04
+                        容器云平台的构建实践.md.html</a>
 
 
                 </li>
@@ -119,11 +103,8 @@
                 <li>
 
 
-
-                    
-
-                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/05 容器网络机制和多主机网络实践.md.html">05 容器网络机制和多主机网络实践.md.html</a>
-
+                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/05 容器网络机制和多主机网络实践.md.html">05
+                        容器网络机制和多主机网络实践.md.html</a>
 
 
                 </li>
@@ -131,11 +112,8 @@
                 <li>
 
 
-
-                    
-
-                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/06 Docker 日志机制与监控实践.md.html">06 Docker 日志机制与监控实践.md.html</a>
-
+                    <a href="/专栏/深入浅出 Docker 技术栈实践课（完）/06 Docker 日志机制与监控实践.md.html">06 Docker
+                        日志机制与监控实践.md.html</a>
 
 
                 </li>
@@ -143,11 +121,9 @@
                 <li>
 
 
-
-                    <a class="current-tab" href="/专栏/深入浅出 Docker 技术栈实践课（完）/07 自动化部署分布式容器云平台实践.md.html">07 自动化部署分布式容器云平台实践.md.html</a>
-
-                    
-
+                    <a class="current-tab"
+                       href="/专栏/深入浅出 Docker 技术栈实践课（完）/07 自动化部署分布式容器云平台实践.md.html">07
+                        自动化部署分布式容器云平台实践.md.html</a>
 
 
                 </li>
@@ -155,11 +131,9 @@
             </ul>
 
 
-
         </div>
 
     </div>
-
 
 
     <div class="sidebar-toggle" onclick="sidebar_toggle()" onmouseover="add_inner()" onmouseleave="remove_inner()">
@@ -167,7 +141,6 @@
         <div class="sidebar-toggle-inner"></div>
 
     </div>
-
 
 
     <script>
@@ -181,7 +154,6 @@
         }
 
 
-
         function remove_inner() {
 
             let inner = document.querySelector('.sidebar-toggle-inner')
@@ -189,7 +161,6 @@
             inner.classList.remove('show')
 
         }
-
 
 
         function sidebar_toggle() {
@@ -221,37 +192,32 @@
         }
 
 
+        function open_sidebar() {
 
+            let sidebar = document.querySelector('.book-sidebar')
 
+            let overlay = document.querySelector('.off-canvas-overlay')
 
-function open_sidebar() {
+            sidebar.classList.add('show')
 
-    let sidebar = document.querySelector('.book-sidebar')
+            overlay.classList.add('show')
 
-    let overlay = document.querySelector('.off-canvas-overlay')
+        }
 
-    sidebar.classList.add('show')
+        function hide_canvas() {
 
-    overlay.classList.add('show')
+            let sidebar = document.querySelector('.book-sidebar')
 
-}
+            let overlay = document.querySelector('.off-canvas-overlay')
 
-function hide_canvas() {
+            sidebar.classList.remove('show')
 
-    let sidebar = document.querySelector('.book-sidebar')
+            overlay.classList.remove('show')
 
-    let overlay = document.querySelector('.off-canvas-overlay')
-
-    sidebar.classList.remove('show')
-
-    overlay.classList.remove('show')
-
-}
-
+        }
 
 
     </script>
-
 
 
     <div class="off-canvas-content">
@@ -292,23 +258,33 @@ function hide_canvas() {
 
                         <div><h1>07 自动化部署分布式容器云平台实践</h1>
 
-<h3>概述</h3>
+                            <h3>概述</h3>
 
-<p>当前云计算场景中部署一套 Kubernetes 集群系统是最常见的容器需求。在初期阶段，大量的部署经验都依赖于前人设计实现的自动化部署工具之上，比如 Ansible。但是为什么这样的自动化工具并不能彻底解决所有 Kubernetes 集群的安装问题呢，主要的矛盾在于版本的升级更新动作在分布式系统的部署过程中，由于步骤复杂，无法提供统一的自动化框架来支持。</p>
+                            <p>当前云计算场景中部署一套 Kubernetes 集群系统是最常见的容器需求。在初期阶段，大量的部署经验都依赖于前人设计实现的自动化部署工具之上，比如
+                                Ansible。但是为什么这样的自动化工具并不能彻底解决所有 Kubernetes
+                                集群的安装问题呢，主要的矛盾在于版本的升级更新动作在分布式系统的部署过程中，由于步骤复杂，无法提供统一的自动化框架来支持。</p>
 
-<p>Ansible 需要撰写大量的有状态的情况来覆盖各种可能发生的部署阶段并做出判断。这种二次判断的操作对于 Ansible 这种自动化工具是无法适应的。Ansible 这样的工具期望行为一致性，如果发生可能发生的情况，将无法有效的保证后续的步奏能有效的安装。通过本文分享的 Kubernetes 社区中提供的安装套件可以帮助大家结合实践现在适合自己的部署分布式容器云平台的方法和工具链。</p>
+                            <p>Ansible 需要撰写大量的有状态的情况来覆盖各种可能发生的部署阶段并做出判断。这种二次判断的操作对于
+                                Ansible 这种自动化工具是无法适应的。Ansible
+                                这样的工具期望行为一致性，如果发生可能发生的情况，将无法有效的保证后续的步奏能有效的安装。通过本文分享的
+                                Kubernetes
+                                社区中提供的安装套件可以帮助大家结合实践现在适合自己的部署分布式容器云平台的方法和工具链。</p>
 
-<h3>Kubernetes Operations（kops）</h3>
+                            <h3>Kubernetes Operations（kops）</h3>
 
-<h4>生产级别 k8s 安装、升级和管理</h4>
+                            <h4>生产级别 k8s 安装、升级和管理</h4>
 
-<p>Ansible 部署 k8s 需要投入很多精力来维护集群知识的 roles 和 inventory，在日常分布式系统中会带来很多不确定的异常，很难维护。所以社区提供了 kops，期望能像 kubectl 一样来管理集群部署的问题。目前实现了 AWS 的支持，GCE 支持属于 Beta 阶段，vSphere 处于 alpha 阶段，其他平台属于计划中。对于中国区的 AWS，可以选用 cn-north-1 可用区来支持。</p>
+                            <p>Ansible 部署 k8s 需要投入很多精力来维护集群知识的 roles 和
+                                inventory，在日常分布式系统中会带来很多不确定的异常，很难维护。所以社区提供了 kops，期望能像
+                                kubectl 一样来管理集群部署的问题。目前实现了 AWS 的支持，GCE 支持属于 Beta 阶段，vSphere 处于
+                                alpha 阶段，其他平台属于计划中。对于中国区的 AWS，可以选用 cn-north-1 可用区来支持。</p>
 
-<p><img src="assets/761bd110-ce66-11e7-891f-b774435a5fbc" alt="enter image description here" /></p>
+                            <p><img src="assets/761bd110-ce66-11e7-891f-b774435a5fbc"
+                                    alt="enter image description here"/></p>
 
-<p>1、配置 AWS 信息</p>
+                            <p>1、配置 AWS 信息</p>
 
-<pre><code class="language-sh">AWS Access Key ID [None]:
+                            <pre><code class="language-sh">AWS Access Key ID [None]:
 
 AWS Secret Access Key [None]:
 
@@ -320,39 +296,39 @@ Default output format [None]:
 
 </code></pre>
 
-<blockquote>
+                            <blockquote>
 
-<p>注意需要声明可用区信息</p>
+                                <p>注意需要声明可用区信息</p>
 
-<pre><code class="language-shell">export AWS_REGION=$(aws configure get region)
-
-
+                                <pre><code class="language-shell">export AWS_REGION=$(aws configure get region)
 
 
-
-</code></pre>
-
-</blockquote>
-
-<p>2、DNS 配置</p>
-
-<p>因为工作区没有 AWS 的 Route53 支持，我们通过使用 gossip 技术可以绕过去这个限制。</p>
-
-<p>3、集群状态存储</p>
-
-<p>创建独立的 S3 区来存储集群安装状态。</p>
-
-<pre><code class="language-shell">aws s3api create-bucket --bucket prefix-example-com-state-store --create-bucket-configuration LocationConstraint=$AWS_REGION
 
 
 
 </code></pre>
 
-<p>4、创建第一个 k8s 集群</p>
+                            </blockquote>
 
-<p>在中国区执行安装的时候，会遇到网络不稳定的情况，使用如下的环境声明可以缓解此类问题：</p>
+                            <p>2、DNS 配置</p>
 
-<pre><code class="language-shell">## Setup vars
+                            <p>因为工作区没有 AWS 的 Route53 支持，我们通过使用 gossip 技术可以绕过去这个限制。</p>
+
+                            <p>3、集群状态存储</p>
+
+                            <p>创建独立的 S3 区来存储集群安装状态。</p>
+
+                            <pre><code class="language-shell">aws s3api create-bucket --bucket prefix-example-com-state-store --create-bucket-configuration LocationConstraint=$AWS_REGION
+
+
+
+</code></pre>
+
+                            <p>4、创建第一个 k8s 集群</p>
+
+                            <p>在中国区执行安装的时候，会遇到网络不稳定的情况，使用如下的环境声明可以缓解此类问题：</p>
+
+                            <pre><code class="language-shell">## Setup vars
 
 
 
@@ -462,175 +438,182 @@ done
 
 </code></pre>
 
-<p>创建集群的时候加上参数：</p>
+                            <p>创建集群的时候加上参数：</p>
 
-<pre><code class="language-shell"> --kubernetes-version https://s3.cn-north-1.amazonaws.com.cn/$ASSET_BUCKET/kubernetes/release/$KUBERNETES_VERSION
-
-
-
-</code></pre>
-
-<p>另外，还有一些镜像是托管在 gcr.io 中的，比如<code>pause-amd64</code>， <code>dns</code>等。需要自行下载并提交部署到所有机器上才能做到离线安装。这里有一个技巧是通过自建的 <strong>Dockerfile</strong> 中加上</p>
-
-<pre><code class="language-bash">FROM gcr.io/google_containers/pause-amd64
+                            <pre><code class="language-shell"> --kubernetes-version https://s3.cn-north-1.amazonaws.com.cn/$ASSET_BUCKET/kubernetes/release/$KUBERNETES_VERSION
 
 
 
 </code></pre>
 
-<p>一行，并通过 Docker Cloud 自动构建的功能，把 pause-amd64 这样的镜像同步到 docker hub 中，方便国内的 AWS 主机可以下载使用。</p>
+                            <p>另外，还有一些镜像是托管在 gcr.io 中的，比如<code>pause-amd64</code>， <code>dns</code>等。需要自行下载并提交部署到所有机器上才能做到离线安装。这里有一个技巧是通过自建的
+                                <strong>Dockerfile</strong> 中加上</p>
 
-<h3>kubeadm——官方安装 k8s 集群命令行工具</h3>
+                            <pre><code class="language-bash">FROM gcr.io/google_containers/pause-amd64
 
-<p>kubeadm 主要的目的就为简化部署集群的难度，提供一键式指令如：kubeadm init 和 kubeadm join 让用户在安装集群的过程中获得平滑的用户体验。</p>
 
-<p><img src="assets/aeb84f30-ce66-11e7-891f-b774435a5fbc" alt="enter image description here" /></p>
 
-<h4><code>kubeadm init</code></h4>
+</code></pre>
 
-<p>初始化的过程被严格定义成多个阶段来分步骤跟踪集群的状态。有些参数必须需要调优：</p>
+                            <p>一行，并通过 Docker Cloud 自动构建的功能，把 pause-amd64 这样的镜像同步到 docker hub
+                                中，方便国内的 AWS 主机可以下载使用。</p>
 
-<ul>
+                            <h3>kubeadm——官方安装 k8s 集群命令行工具</h3>
 
-<li>
+                            <p>kubeadm 主要的目的就为简化部署集群的难度，提供一键式指令如：kubeadm init 和 kubeadm join
+                                让用户在安装集群的过程中获得平滑的用户体验。</p>
 
-<p>--apiserver-advertise-address 这个地址是用来让 API Server 来通告其他集群组件的 IP 地址。</p>
+                            <p><img src="assets/aeb84f30-ce66-11e7-891f-b774435a5fbc"
+                                    alt="enter image description here"/></p>
 
-</li>
+                            <h4><code>kubeadm init</code></h4>
 
-<li>
+                            <p>初始化的过程被严格定义成多个阶段来分步骤跟踪集群的状态。有些参数必须需要调优：</p>
 
-<p>--apiserver-bind-port 这个端口是 API Server 的端口，默认是6443。</p>
+                            <ul>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--apiserver-advertise-address 这个地址是用来让 API Server 来通告其他集群组件的 IP
+                                        地址。</p>
 
-<p>--apiserver-cert-extra-sans 附加的主机名字或地址，并加入到证书中。例如：</p>
+                                </li>
 
-<p><code>--apiserver-cert-extra-sans=kubernetes.example.com,kube.example.com,10.100.245.1</code></p>
+                                <li>
 
-</li>
+                                    <p>--apiserver-bind-port 这个端口是 API Server 的端口，默认是6443。</p>
 
-<li>
+                                </li>
 
-<p>--cert-dir 证书地址，默认在 /etc/kubernetes/pki。</p>
+                                <li>
 
-</li>
+                                    <p>--apiserver-cert-extra-sans 附加的主机名字或地址，并加入到证书中。例如：</p>
 
-<li>
+                                    <p><code>--apiserver-cert-extra-sans=kubernetes.example.com,kube.example.com,10.100.245.1</code>
+                                    </p>
 
-<p>--config kubeadm 的配置文件。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--cert-dir 证书地址，默认在 /etc/kubernetes/pki。</p>
 
-<p>--dry-run 这个参数告诉 kubeadm 不要执行，只是显示执行步骤。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--config kubeadm 的配置文件。</p>
 
-<p>--feature-gates 通过键值对来激活 alpha/experimental 的特性。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--dry-run 这个参数告诉 kubeadm 不要执行，只是显示执行步骤。</p>
 
-<p>--kubernetes-version 集群初始化版本号。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--feature-gates 通过键值对来激活 alpha/experimental 的特性。</p>
 
-<p>--node-name 主机名称。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--kubernetes-version 集群初始化版本号。</p>
 
-<p>--pod-network-cidr 选择 pod 的网络网段。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--node-name 主机名称。</p>
 
-<p>--service-cidr 服务 IP 地址网段。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--pod-network-cidr 选择 pod 的网络网段。</p>
 
-<p>--service-dns-domain 服务域名，默认 cluster.local。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--service-cidr 服务 IP 地址网段。</p>
 
-<p>--skip-preflight-checks 默认 kubeadm 运行一系列事前检查来确认系统的有效性。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--service-dns-domain 服务域名，默认 cluster.local。</p>
 
-<p>--skip-token-print 去掉默认打印 token 的行为。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--skip-preflight-checks 默认 kubeadm 运行一系列事前检查来确认系统的有效性。</p>
 
-<p><code>--token</code> 指定 token 的字符串。</p>
+                                </li>
 
-</li>
+                                <li>
 
-<li>
+                                    <p>--skip-token-print 去掉默认打印 token 的行为。</p>
 
-<p>--token-ttl 配置 token 的过期时间，默认24个小时。</p>
+                                </li>
 
-</li>
+                                <li>
 
-</ul>
+                                    <p><code>--token</code> 指定 token 的字符串。</p>
 
-<h4>kubeadm join</h4>
+                                </li>
 
-<p>两种连接方式：</p>
+                                <li>
 
-<ul>
+                                    <p>--token-ttl 配置 token 的过期时间，默认24个小时。</p>
 
-<li>
+                                </li>
 
-<p>通过共享 token 和 ip 地址和 root CA key 来加入集群。</p>
+                            </ul>
 
-<p><code>kubeadm join --discovery-token abcdef.1234567890abcdef --discovery-token-ca-cert-hash sha256:1234..cdef 1.2.3.4:6443</code></p>
+                            <h4>kubeadm join</h4>
 
-</li>
+                            <p>两种连接方式：</p>
 
-<li>
+                            <ul>
 
-<p>使用配置文件</p>
+                                <li>
 
-</li>
+                                    <p>通过共享 token 和 ip 地址和 root CA key 来加入集群。</p>
 
-</ul>
+                                    <p><code>kubeadm join --discovery-token abcdef.1234567890abcdef
+                                        --discovery-token-ca-cert-hash sha256:1234..cdef 1.2.3.4:6443</code></p>
 
-<p><code>kubeadm join --discovery-file path/to/file.conf</code></p>
+                                </li>
 
-<h4><code>kubeadm config</code></h4>
+                                <li>
 
-<p>kubeadm v1.8.0+ 将自动创建 ConfigMap 提供kubeadm init 需要的所有参数。</p>
+                                    <p>使用配置文件</p>
 
-<h4><code>kubeadm reset</code></h4>
+                                </li>
 
-<p>取消 kubeadm init 或者 kubeadm join 对集群做的改动。</p>
+                            </ul>
 
-<h4><code>kubeadm token</code></h4>
+                            <p><code>kubeadm join --discovery-file path/to/file.conf</code></p>
 
-<p>管理集群需要的 token。</p>
+                            <h4><code>kubeadm config</code></h4>
 
-<p>还有，kubeadm 可以配置使用其他 docker runtime，比如 cri-o 容器引擎。</p>
+                            <p>kubeadm v1.8.0+ 将自动创建 ConfigMap 提供kubeadm init 需要的所有参数。</p>
 
-<pre><code class="language-shell">$ cat &gt; /etc/systemd/system/kubelet.service.d/20-cri.conf &lt;&lt;EOF
+                            <h4><code>kubeadm reset</code></h4>
+
+                            <p>取消 kubeadm init 或者 kubeadm join 对集群做的改动。</p>
+
+                            <h4><code>kubeadm token</code></h4>
+
+                            <p>管理集群需要的 token。</p>
+
+                            <p>还有，kubeadm 可以配置使用其他 docker runtime，比如 cri-o 容器引擎。</p>
+
+                            <pre><code class="language-shell">$ cat &gt; /etc/systemd/system/kubelet.service.d/20-cri.conf &lt;&lt;EOF
 
 Environment=&quot;KUBELET_EXTRA_ARGS=--container-runtime=remote --container-runtime-endpoint=$RUNTIME_ENDPOINT --feature-gates=AllAlpha=true&quot;
 
@@ -642,31 +625,39 @@ $ systemctl daemon-reload
 
 </code></pre>
 
-<p>通过初始化后，就可以调用 cri-o 引擎了。</p>
+                            <p>通过初始化后，就可以调用 cri-o 引擎了。</p>
 
-<h4>kubeadm 配置自定义镜像</h4>
+                            <h4>kubeadm 配置自定义镜像</h4>
 
-<p>默认，kubeadm 会拉取 gcr.io/google_containers 下的镜像。必须通过配置文件覆盖默认的镜像仓库的地址。</p>
+                            <p>默认，kubeadm 会拉取 gcr.io/google_containers
+                                下的镜像。必须通过配置文件覆盖默认的镜像仓库的地址。</p>
 
-<ul>
+                            <ul>
 
-<li>imageRepository 去掉。gcr.io/google_containers 的值。</li>
+                                <li>imageRepository 去掉。gcr.io/google_containers 的值。</li>
 
-<li>unifiedControlPlaneImage 提供面板镜像。</li>
+                                <li>unifiedControlPlaneImage 提供面板镜像。</li>
 
-<li>etcd.image 是 etcd 的镜像。</li>
+                                <li>etcd.image 是 etcd 的镜像。</li>
 
-</ul>
+                            </ul>
 
-<h4>kubeadm 支持云端集成</h4>
+                            <h4>kubeadm 支持云端集成</h4>
 
-<p>通过指定--cloud-provider 参数可以实现云端 k8s 集群的部署。比如阿里云就实现了<a href="https://github.com/AliyunContainerService/alicloud-controller-manager">一套 cloud provider</a> 帮助用户在阿里云一键部署一套集群。从当前社区的热度来看，k8s 社区重点专注在kubeadm的扩展，第三方的 cloud provider 可以自行实现功能，kubeadm 可以通过参数的方式调用阿里云的基础组件。</p>
+                            <p>通过指定--cloud-provider 参数可以实现云端 k8s 集群的部署。比如阿里云就实现了<a
+                                    href="https://github.com/AliyunContainerService/alicloud-controller-manager">一套
+                                cloud provider</a> 帮助用户在阿里云一键部署一套集群。从当前社区的热度来看，k8s
+                                社区重点专注在kubeadm的扩展，第三方的 cloud provider 可以自行实现功能，kubeadm
+                                可以通过参数的方式调用阿里云的基础组件。</p>
 
-<h3>总结</h3>
+                            <h3>总结</h3>
 
-<p>从 Ansible 自动化工具开始，K8S 集群作为典型的分布式集群系统安装范本，社区在不断的优化用户体验。我们期望集群能够自举的完成系统级配置，并且通过 kubeadm 的方式帮助用户简单的、平滑的升级集群。实现这个 kubeadm，可以帮助任意系统管理员不在为分布式系统的安装犯愁，只需要一行命令就可以完成集群的搭建。所有生产级别的经验都被固化在 kubeadm 的代码中，我们通过参数加以调优，实现集群的生产级别的部署工作。</p>
+                            <p>从 Ansible 自动化工具开始，K8S 集群作为典型的分布式集群系统安装范本，社区在不断的优化用户体验。我们期望集群能够自举的完成系统级配置，并且通过
+                                kubeadm 的方式帮助用户简单的、平滑的升级集群。实现这个
+                                kubeadm，可以帮助任意系统管理员不在为分布式系统的安装犯愁，只需要一行命令就可以完成集群的搭建。所有生产级别的经验都被固化在
+                                kubeadm 的代码中，我们通过参数加以调优，实现集群的生产级别的部署工作。</p>
 
-</div>
+                        </div>
 
                     </div>
 
@@ -678,10 +669,8 @@ $ systemctl daemon-reload
 
                         </div>
 
-                        
 
                     </div>
-
 
 
                 </div>
@@ -693,12 +682,14 @@ $ systemctl daemon-reload
     </div>
 
 
-
     <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
 
 </div>
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"70997a4189ee3cfa","version":"2021.12.0","r":1,"token":"1f5d475227ce4f0089a7cff1ab17c0f5","si":100}' crossorigin="anonymous"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"70997a4189ee3cfa","version":"2021.12.0","r":1,"token":"1f5d475227ce4f0089a7cff1ab17c0f5","si":100}'
+        crossorigin="anonymous"></script>
 
 </body>
 
@@ -711,13 +702,11 @@ $ systemctl daemon-reload
     window.dataLayer = window.dataLayer || [];
 
 
-
     function gtag() {
 
         dataLayer.push(arguments);
 
     }
-
 
 
     gtag('js', new Date());
@@ -747,7 +736,6 @@ $ systemctl daemon-reload
     }
 
 
-
     function setCookie(cname, cvalue) {
 
         var d = new Date();
@@ -759,7 +747,6 @@ $ systemctl daemon-reload
         document.cookie = cname + "=" + cvalue + "; " + expires + ";path = /";
 
     }
-
 
 
     function getCookie(cname) {
@@ -781,9 +768,7 @@ $ systemctl daemon-reload
     }
 
 
-
 </script>
-
 
 
 </html>
